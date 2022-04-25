@@ -1,0 +1,68 @@
+/*ESTILOS GENERALES*/
+*{
+    margin: 0;
+    padding: o;
+    font-family: sans-serif;
+}
+
+.cuerpo{
+    min-height: 80vh;
+    background-image: url(/Img/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*HEADER Y MENU*/
+header{
+    min-height: 100px;
+   /* align-items: center;*/
+    background-color: bisque;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 60px;
+}
+/*.menu{
+    display: flex;
+    justify-content: space-around;
+   
+}*/
+.menu{
+    justify-items: center;
+    align-items: center;
+}
+
+.menu__item{
+    list-style: none;
+    
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.menu a:hover{
+    color: white;
+    height:30px
+    
+}
+/*CUERPO
+
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
