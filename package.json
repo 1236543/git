@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass":"sass --watch scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1236543/git.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "",    
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/1236543/git/issues"
